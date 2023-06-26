@@ -1,0 +1,50 @@
+h1 {
+    color: red;
+}
+
+form h1{
+    color: blue;
+}
+
+main{
+    width: 940px;                   /*largura do elemento */
+    margin: auto;                   /* margem do elemento */
+    background-color: white;        /* plano de fundo - cor */
+}
+
+form{
+   margin: 40px 0;
+   border: 7px;
+}
+
+form label{
+    display: block;              /* modo que  ém ostrado na tela - bloco: um elemento abaixo do outro*/
+    padding: 5px ;   
+    margin: 0 0 10px;
+
+}
+.padrao{
+
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 25px;             /*é o espaçamento interno do elemento*/
+    width: 50%; 
+}
+
+.enviar{                        
+    width: 50%;                 /* largura*/
+    padding: 15px 0;            /* espaçamento interno*/
+    font-weight: bold;          /* deixar a letra em negrito */
+    color: white;               
+    background: purple;         /* cor do fundo do elemento */
+    font-size: 20px;            /* tamanho da letra */
+    border: none;               /* borda do botão invisível*/
+    border-radius: 30px;        /* borda arredondadas */
+    transition: 1s all;
+    cursor: pointer;
+    margin: 0 0 40 0px;
+}
+
+.enviar:hover{
+    background: blueviolet;
+}

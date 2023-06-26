@@ -1,0 +1,15 @@
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    text-align: center;
+    color:red;
+    border: black 2px solid;
+}

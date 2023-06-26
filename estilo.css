@@ -1,0 +1,115 @@
+
+h1, h2{ 
+    text-align: center;  /* deixa o texto centralizado (no meio da página) */
+    font-size: 2em;      /* título com o dobro do tammanho do texto*/
+    margin: 1em 0;
+}
+
+.mudar_cor{
+    color: red;
+    text-align: center;
+}
+
+body{
+    background-color:#D3D3D3;
+}
+
+section{
+    margin: 20px 60px;
+}
+
+#div_texto{
+    background-color: white;
+}
+
+.div_lista{
+    background-color: white;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    height:228px;
+}
+.img1{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.img2{
+    background-color: white;
+    width: 55%;
+    display: inline-block;
+    text-align: right;
+}
+
+.img3{
+    display: inline-block;
+}
+
+nav ul{
+    list-style-type:none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: white;
+}
+nav a:visited {
+    text-decoration: none;
+  }
+
+
+nav {
+    position:absolute;
+    top: 200px;
+    right: 30px;
+    background-color: #D3D3D3;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+footer{
+    text-align: center;
+    background-color: gray;
+    padding: 40px 0;
+}
+.rodape{
+    color: white;
+    margin: 20px 0 0 0;
+}
+
+h1 {
+    color: red;
+}
+
+
+@media screen and (max-width:480px){ 
+.rodape{
+     width: auto;
+    }
+    .img1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        }
+    .img2{
+        width: 100%;
+        text-align: center;
+        }
+    nav{
+        position: static;
+       }
+    .div_lista {
+    width: 100%;
+    }   
+}
+
